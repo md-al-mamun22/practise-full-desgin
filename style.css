@@ -1,0 +1,952 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Secular+One&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.logo {
+    font-family: 'Secular One', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #1D1D1D;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header .container,
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainmenu ul {
+    display: flex;
+}
+
+.mainmenu li a {
+    display: inline-block;
+    padding: 10px 27px;
+    color: #1D1D1D;
+}
+
+.mainmenu li.get-started-link a {
+    background: #1361F5;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.mainmenu li.login-link a {
+    color: #1361F5;
+}
+
+.header {
+    padding: 28px 0;
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    margin-bottom: 35px;
+    line-height: 50px;
+}
+
+body {
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -1px;
+}
+
+.btn {
+    border: 1px solid;
+    display: inline-block;
+    padding: 10px 27px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.btn.primary-btn {
+    background: #1361f5;
+    border-color: #1361f5;
+    color: #fff;
+}
+
+.btn.secondary-btn {
+    border-color: #E0E0E0;
+    color: #1361f5;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.hero-text p {
+    margin-bottom: 45px;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.detail {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
+    padding: 5px 15px;
+}
+
+.detail h1 {
+    color: #223140;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    padding-bottom: 5px;
+}
+
+.detail p {
+    padding-bottom: 5px;
+    color: #535558;
+    font-family: ITF Devanagari Marathi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+}
+
+/* title style  */
+.title {
+    color: #1D1D1D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -1px;
+    margin-top: 90px;
+    margin-bottom: 35px;
+}
+
+.description {
+    color: #223140;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -1px;
+    width: 771px;
+    margin: 0 auto;
+}
+
+/* functionalitis style   */
+
+.functionalitis {
+    display: flex;
+    gap: 109px;
+    margin-top: 90px;
+}
+
+.right img {
+    width: 100%;
+}
+
+.left h4 {
+    color: #094BCA;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    padding-bottom: 15px;
+}
+
+.left h2 {
+    color: #1D1D1D;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -1px;
+    padding-bottom: 20px;
+}
+
+.left p {
+    color: #223140;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -1px;
+    display: flex;
+    width: 531px;
+    padding-bottom: 35px;
+}
+
+
+/* functionalitis2 style  */
+.right h4 {
+    color: #094BCA;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    padding-bottom: 15px;
+}
+
+.right h2 {
+    color: #1D1D1D;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -1px;
+    padding-bottom: 20px;
+}
+
+.right p {
+    color: #223140;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -1px;
+    display: flex;
+    width: 531px;
+    padding-bottom: 35px;
+}
+
+/* interation style  */
+.interation {
+    display: flex;
+    gap: 109px;
+    margin-top: 90px;
+}
+
+.interation .left {
+    padding: 30px 0px;
+}
+
+.leftTitle {
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -1px;
+}
+
+.leftDes {
+    color: #223140;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -1px;
+}
+
+/* 
+.image {
+    border-radius: 12.265px;
+    background: #FFF;
+    box-shadow: 0px 5.251688480377197px 23px 0px rgba(47, 40, 91, 0.17);
+} */
+
+
+/* customers style  */
+.title2 {
+    color: #1D1D1D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -1px;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
+.description2 {
+    color: #223140;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -1px;
+    width: 771px;
+    margin: 0 auto;
+    padding-bottom: 90px;
+}
+
+/* customer card style  */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.card1 {
+    text-align: center;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
+    position: relative;
+    /* height: 100px; */
+}
+
+.card1 img {
+    position: absolute;
+    bottom: 285px;
+    right: 155px;
+    width: 100px;
+    height: 100px;
+}
+
+.card1 p {
+    color: #535558;
+    text-align: center;
+    font-family: ITF Devanagari Marathi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 44px 0;
+    margin-top: 40px;
+}
+
+/* img {
+    width: 100px !important;
+    height: 100px !important;
+} */
+
+.card1 h1 {
+    color: #D9D9D9;
+    text-align: center;
+    font-family: Secular One;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.293px;
+    padding-bottom: 30px;
+}
+
+h1 {}
+
+.card1 h2 {
+    color: #223140;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    padding-bottom: 30px;
+}
+
+button.btn3 {
+    display: block;
+    margin: 0 auto;
+    background: #1361f5;
+    border-color: #1361f5;
+    color: #fff;
+    border: 1px solid;
+    padding: 10px 27px;
+    border-radius: 5px;
+}
+
+/* support style  */
+.supports {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Secular+One&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.logo {
+    font-family: 'Secular One', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #1D1D1D;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header .container,
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainmenu ul {
+    display: flex;
+}
+
+.mainmenu li a {
+    display: inline-block;
+    padding: 10px 27px;
+    color: #1D1D1D;
+}
+
+.mainmenu li.get-started-link a {
+    background: #1361F5;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.mainmenu li.login-link a {
+    color: #1361F5;
+}
+
+.header {
+    padding: 28px 0;
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    margin-bottom: 35px;
+    line-height: 50px;
+}
+
+body {
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -1px;
+}
+
+.btn {
+    border: 1px solid;
+    display: inline-block;
+    padding: 10px 27px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.btn.primary-btn {
+    background: #1361f5;
+    border-color: #1361f5;
+    color: #fff;
+}
+
+.btn.secondary-btn {
+    border-color: #E0E0E0;
+    color: #1361f5;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.hero-text p {
+    margin-bottom: 45px;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+    margin: 30px 0;
+}
+
+.detail {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
+    padding: 5px 15px;
+}
+
+.detail h1 {
+    color: #223140;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    padding-bottom: 5px;
+}
+
+.detail p {
+    padding-bottom: 5px;
+    color: #535558;
+    font-family: ITF Devanagari Marathi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+}
+
+/* title style  */
+.title {
+    color: #1D1D1D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -1px;
+    margin-top: 90px;
+    margin-bottom: 35px;
+}
+
+.description {
+    color: #223140;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -1px;
+    width: 771px;
+    margin: 0 auto;
+}
+
+/* functionalitis style   */
+
+.functionalitis {
+    display: flex;
+    gap: 109px;
+    margin-top: 90px;
+}
+
+.right img {
+    width: 100%;
+}
+
+.left h4 {
+    color: #094BCA;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    padding-bottom: 15px;
+}
+
+.left h2 {
+    color: #1D1D1D;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -1px;
+    padding-bottom: 20px;
+}
+
+.left p {
+    color: #223140;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -1px;
+    display: flex;
+    width: 531px;
+    padding-bottom: 35px;
+}
+
+
+/* functionalitis2 style  */
+.right h4 {
+    color: #094BCA;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    padding-bottom: 15px;
+}
+
+.right h2 {
+    color: #1D1D1D;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -1px;
+    padding-bottom: 20px;
+}
+
+.right p {
+    color: #223140;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -1px;
+    display: flex;
+    width: 531px;
+    padding-bottom: 35px;
+}
+
+/* interation style  */
+.interation {
+    display: flex;
+    gap: 109px;
+    margin-top: 90px;
+}
+
+.interation .left {
+    padding: 30px 0px;
+}
+
+.leftTitle {
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -1px;
+}
+
+.leftDes {
+    color: #223140;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -1px;
+}
+
+/* 
+.image {
+    border-radius: 12.265px;
+    background: #FFF;
+    box-shadow: 0px 5.251688480377197px 23px 0px rgba(47, 40, 91, 0.17);
+} */
+
+
+/* customers style  */
+.title2 {
+    color: #1D1D1D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -1px;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
+.description2 {
+    color: #223140;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -1px;
+    width: 771px;
+    margin: 0 auto;
+    padding-bottom: 90px;
+}
+
+/* customer card style  */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.card1 {
+    text-align: center;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
+    position: relative;
+    /* height: 100px; */
+}
+
+.card1 img {
+    position: absolute;
+    bottom: 285px;
+    right: 155px;
+    width: 100px;
+    height: 100px;
+}
+
+.card1 p {
+    color: #535558;
+    text-align: center;
+    font-family: ITF Devanagari Marathi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 44px 0;
+    margin-top: 40px;
+}
+img.custom-img {
+    width: 100%;
+}
+
+/* img {
+    width: 100px !important;
+    height: 100px !important;
+} */
+
+.card1 h1 {
+    color: #D9D9D9;
+    text-align: center;
+    font-family: Secular One;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.293px;
+    padding-bottom: 30px;
+}
+
+h1 {}
+
+.card1 h2 {
+    color: #223140;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    padding-bottom: 30px;
+}
+
+button.btn3 {
+    display: block;
+    margin: 0 auto;
+    background: #1361f5;
+    border-color: #1361f5;
+    color: #fff;
+    border: 1px solid;
+    padding: 10px 27px;
+    border-radius: 5px;
+}
+
+/* support style  */
+.supports {
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.supT {
+    color: #094BCA;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -1px;
+}
+
+p.supD {
+    color: #223140;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -1px;
+}
+
+/* businesses card style  */
+.businesses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.business1 {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
+.twobtn {
+    display: flex;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+p.two {
+    border-radius: 2px;
+    background: rgba(19, 97, 245, 0.10);
+    color: var(--blue-base, #004CE6);
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 5px;
+}
+
+h3.twoT {
+    color: #223140;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    margin: 10px 0;
+    padding-left: 12px;
+}
+
+p.read {
+    color: #094BCA;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+/* footer style  */
+.footerParts {
+    margin-top: 126px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.blog1 {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.blogImg {
+    width: 100%;
+}
+.blogImg img {
+    width: 130.px;
+    height: 78px;
+}
+.blog1 {
+    display: flex;
+    gap: 5px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
+}
+span i {
+    color: #094BCA;
+    font-family: FontAwesome;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.blog1 p {
+    color: #535558;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.about a {
+    color: #535558;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.Company a {
+    color: #535558;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+element.style {
+    color: #535558;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 53%;
+}
